@@ -40,6 +40,7 @@ public class Game {
   public Date getCreated() {
     return created;
   }
+
   public Integer getLength() {
     return length;
   }
@@ -79,5 +80,4 @@ public class Game {
   public List<Guess> getGuesses() {
     return guesses;
   }
-
 }
